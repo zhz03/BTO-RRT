@@ -20,8 +20,8 @@ q_goal = [190,130,25,1,0,0];
 % test
 % q_goal = [10,60,25,1,0,0];
 % q_init = [60,10,25,0,0,0];
-%  q_init = [10,60,25,0,0,0];
-%  q_goal = [5,10,25,1,0,0];
+% q_init = [10,60,25,0,0,0];
+% q_goal = [5,10,25,1,0,0];
 
 zlabel('z');
 ylabel('y');
@@ -36,7 +36,7 @@ stepsize =2;
 throushold = 1.5;
 RRTnode = q_init;
 RRTnode1 = q_goal;
-figure;
+figure(1);
 pcshow(ptCloud);
 hold on;
 %% main
