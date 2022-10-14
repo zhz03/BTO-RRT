@@ -1,9 +1,9 @@
 clear all;
 %% load settings
-name = 'map4';
+name = 'map7';
 %name = 'BTO_example';
-type = '.jpg';
-%type = '.bmp';
+% type = '.jpg';
+type = '.bmp';
 %type= '.png';
 fullname = [name,type];
 map=im2bw(imread(fullname)); 
@@ -19,11 +19,11 @@ q_goal=[490 490]; % goal position in Y, X format
 % q_init=[245 10 ]; % source position in Y, X format
 % q_goal=[245 490 ]; % goal position in Y, X format
 % map4
-q_init=[50 200 ]; % source position in Y, X format
-q_goal=[520 400 ]; % goal position in Y, X format
+%q_init=[50 200 ]; % source position in Y, X format
+%q_goal=[520 400 ]; % goal position in Y, X format
 % %map7-8
-% q_init=[10 490]; % source position in Y, X format
-% q_goal=[490 10]; % goal position in Y, X format
+q_init=[10 490]; % source position in Y, X format
+q_goal=[490 10]; % goal position in Y, X format
 
 % %map comp
 % q_init=[25 475]; % source position in Y, X format
