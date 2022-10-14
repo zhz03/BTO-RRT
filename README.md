@@ -35,6 +35,8 @@ type = '.bmp';
 
 To run and see the effect of BTO-RRT algorithm immediately on 3d point cloud maps, you can run `code/pointcloud_3D/pointcloud_RRTV2m_1.m` 
 
+**Note**: Before running this code, you need to download the point cloud map data to the `code/pointcloud_3D/` directory first. 
+
 You should see something similar to the following:
 
 ![](./figs/demo2_fig1.jpg)
